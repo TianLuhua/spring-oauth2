@@ -24,6 +24,8 @@
     <modules>
         <module>authorization-server</module>
         <module>eureka-server</module>
+        <module>resouce-server</module>
+        <module>oauth2client</module>
     </modules>
     
     <dependencies>

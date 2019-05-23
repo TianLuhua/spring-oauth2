@@ -8,7 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="authorization-server" />
         <module name="eureka-server" />
+        <module name="oauth2client" />
+        <module name="resouce-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
