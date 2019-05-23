@@ -16,9 +16,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 /**
  * spring security的相关配置。spring oauth2 依赖于spring security
  */
-//@Configuration
-//@EnableWebSecurity
-//@EnableGlobalMethodSecurity(prePostEnabled = true)
+@Configuration
+@EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 
@@ -30,12 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        /**
-         * 默认所有的请求必须得到认证；取消掉csrf
-         */
-        http.authorizeRequests().anyRequest().authenticated()
-                .and()
-                .csrf().disable();
+        super.configure(http);
     }
 
     @Override

@@ -24,10 +24,9 @@
     <modules>
         <module>authorization-server</module>
         <module>eureka-server</module>
-        <module>resouce-server</module>
-        <module>oauth2client</module>
+        <module>service-hi</module>
     </modules>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

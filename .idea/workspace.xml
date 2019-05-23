@@ -2,24 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a2543fd-843b-4db2-b510-688cecbbc59a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/service/UserServiceDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/OAuth2ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/ResourceServerConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/Usercontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization-server/src/test/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server/src/test/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/src/main/java/com/booyue/tlh/oauth2client/Oauth2clientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2client/src/test/java/com/booyue/tlh/oauth2client/Oauth2clientApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/src/main/java/com/booyue/tlh/resouceserver/ResouceServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouce-server/src/test/java/com/booyue/tlh/resouceserver/ResouceServerApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,6 +48,7 @@
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/resouce-server/target/" />
     <ignored path="$PROJECT_DIR$/oauth2client/target/" />
+    <ignored path="$PROJECT_DIR$/service-hi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,35 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/resources/application.yml">
+      <file leaf-file-name="OAuth2ClientConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/OAuth2ClientConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorizationServerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1315#1316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="95">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,46 +70,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/WebSecurityConfig.java">
+      <file leaf-file-name="HiController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/HiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="184">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2175#2176#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OAuth2AuthorizationConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InMemoryTokenStore.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/InMemoryTokenStore.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceDetail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/service/UserServiceDetail.java">
+      <file leaf-file-name="ResourceServerConfigurer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/ResourceServerConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,31 +97,74 @@
         </entry>
       </file>
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XADataSourceAutoConfiguration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/XADataSourceAutoConfiguration.class">
+      <file leaf-file-name="ServiceHiApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/ServiceHiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfiguration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+            <state relative-caret-position="95">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usercontroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/Usercontroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -155,6 +174,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -164,6 +184,8 @@
       <find>AuthenticationManagerBuilder</find>
       <find>AuthorizationServerConfigurer</find>
       <find>EnhancerBySpringCGLIB</find>
+      <find>spring-boot-starter-security</find>
+      <find>current</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +200,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/resouce-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/resouce-server/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2client/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2client/src/main/java/com/booyue/tlh/oauth2client/Oauth2clientApplication.java" />
         <option value="$PROJECT_DIR$/oauth2client/src/main/resources/application.yml" />
@@ -188,10 +209,23 @@
         <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/service/UserServiceDetail.java" />
         <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplication.java" />
-        <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java" />
         <option value="$PROJECT_DIR$/authorization-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java" />
         <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java" />
+        <option value="$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi/src/test/java/com/booyue/tlh/servicehi/ServiceHiApplicationTests.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/ServiceHiApplication.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/ResourceServerConfigurer.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/OAuth2ClientConfig.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/User.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/Usercontroller.java" />
       </list>
     </option>
   </component>
@@ -227,9 +261,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-4" />
-    <option name="width" value="1329" />
+    <option name="width" value="1406" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -287,30 +321,77 @@
             <path>
               <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authorizationserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authorizationserver" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization-server" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-oauthorizetion-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-oauthorizetion-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,6 +417,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IntelliJ\spring-oauthorizetion-demo\service-hi\src\main\java\com\booyue\tlh\servicehi" />
       <recent name="E:\workspace\IntelliJ\spring-oauthorizetion-demo\authorization-server\src\main\java\com\booyue\tlh\authorizationserver\dao" />
     </key>
   </component>
@@ -355,7 +437,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.10254307" />
+    <option name="contentProportion" value="0.32692307" />
   </component>
   <component name="RunManager" selected="Spring Boot.AuthorizationServerApplication">
     <configuration name="Oauth2clientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -388,6 +470,47 @@
       </option>
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="resouce-server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="resouce-server" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="AuthorizationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="authorization-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.booyue.tlh.authorizationserver.AuthorizationServerApplication" />
@@ -396,15 +519,9 @@
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.booyue.tlh.eurekaserver.EurekaServerApplication" />
     </configuration>
-    <configuration name="ResouceServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="resouce-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.booyue.tlh.resouceserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.booyue.tlh.resouceserver.ResouceServerApplication" />
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-hi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.booyue.tlh.servicehi.ServiceHiApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -431,13 +548,12 @@
     <list>
       <item itemvalue="Spring Boot.AuthorizationServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.ResouceServerApplication" />
       <item itemvalue="Application.Oauth2clientApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Oauth2clientApplication" />
-        <item itemvalue="Spring Boot.ResouceServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -452,15 +568,16 @@
       <option name="presentableId" value="Default" />
       <updated>1558573351259</updated>
       <workItem from="1558573352614" duration="10279000" />
-      <workItem from="1558589766290" duration="5988000" />
+      <workItem from="1558589766290" duration="13255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16267000" />
+    <option name="totallyTimeSpent" value="23534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1329" height="1053" extended-state="0" />
+    <frame x="-4" y="0" width="1406" height="1053" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -479,14 +596,15 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.37235227" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.34225196" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49721295" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22098215" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19539317" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26421404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28967065" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,7 +612,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,160 +633,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.5.RELEASE/spring-boot-dependencies-2.1.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="499" column="6" selection-start-line="499" selection-start-column="6" selection-end-line="499" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-starter-netflix-eureka-client-2.1.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/configurers/ClientDetailsServiceConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resouce-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableResourceServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableAuthorizationServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/RemoteTokenServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/ResourceServerTokenServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/ResourceServerSecurityConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="139" column="67" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="24" selection-start-column="24" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resouce-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2client/src/main/java/com/booyue/tlh/oauth2client/Oauth2clientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-oauth2/2.1.2.RELEASE/spring-cloud-starter-oauth2-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/test/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -684,26 +647,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resouce-server/src/main/java/com/booyue/tlh/resouceserver/ResouceServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.1.5.RELEASE/spring-boot-starter-data-jpa-2.1.5.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaProperties.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,17 +657,6 @@
           <folding>
             <element signature="e#1796#1797#0" expanded="true" />
             <element signature="e#1834#1835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/HibernateProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,24 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerSecurityConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -832,44 +752,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="95">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java">
+    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        <state relative-caret-position="32">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/HibernateProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.2.RELEASE/spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="306" column="41" selection-start-line="306" selection-start-column="41" selection-end-line="306" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-oauth2/2.1.2.RELEASE/spring-cloud-starter-oauth2-2.1.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorization-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/service/UserServiceDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -878,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="456">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2175#2176#0" expanded="true" />
@@ -888,15 +847,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/AuthorizationServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/config/OAuth2AuthorizationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="124">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="20" selection-end-column="26" />
           <folding>
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2client/src/main/java/com/booyue/tlh/oauth2client/Oauth2clientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resouce-server/src/main/java/com/booyue/tlh/resouceserver/ResouceServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#21956#21957#0" expanded="true" />
+            <element signature="e#22033#22034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/test/java/com/booyue/tlh/servicehi/ServiceHiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorization-server/src/main/java/com/booyue/tlh/authorizationserver/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/client/token/grant/client/ClientCredentialsResourceDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.2.RELEASE/spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerTokenServicesConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="76" column="180" selection-start-line="76" selection-start-column="180" selection-end-line="76" selection-end-column="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/Usercontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/controller/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/OAuth2ClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/booyue/tlh/servicehi/config/ResourceServerConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

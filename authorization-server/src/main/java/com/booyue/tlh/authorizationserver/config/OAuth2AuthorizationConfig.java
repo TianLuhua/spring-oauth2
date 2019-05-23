@@ -16,9 +16,9 @@ import org.springframework.security.oauth2.provider.token.store.InMemoryTokenSto
 import javax.sql.DataSource;
 
 
-//@Configuration
-//@EnableResourceServer
-//@EnableAuthorizationServer
+@Configuration
+@EnableResourceServer
+@EnableAuthorizationServer
 public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
 
     @Autowired

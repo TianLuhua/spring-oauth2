@@ -5,7 +5,7 @@
     <session id="-511799650">
       <usages-collector id="statistics.spring.boot.run.usages">
         <counts>
-          <entry key="LiveBeansNavigationHandler.fromCode" value="1" />
+          <entry key="LiveBeansNavigationHandler.fromCode" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -16,8 +16,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/authorization-server/pom.xml" />
-        <option value="$PROJECT_DIR$/resouce-server/pom.xml" />
-        <option value="$PROJECT_DIR$/oauth2client/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
       </list>
     </option>
   </component>
