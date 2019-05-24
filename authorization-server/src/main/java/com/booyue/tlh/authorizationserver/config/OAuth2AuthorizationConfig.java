@@ -51,7 +51,7 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
                 .scopes("ui")
                 .and()
                 .withClient("service-hi")
-                .scopes("123456")
+                .secret("$2a$10$Q2zHbm.Fo19i4KuExrF.0uZveXLkHm6A.qKl.RMWIbW62sMwOr1ra")//123456
                 .authorizedGrantTypes("client_credentials", "refresh_token", "password")
                 .scopes("service");
     }
