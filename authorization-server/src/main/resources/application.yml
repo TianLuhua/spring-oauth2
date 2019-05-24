@@ -7,12 +7,21 @@ spring:
   application:
     name: authorization-server
 
+  redis:
+    host: 121.43.105.9
+    database: 5
+    password: Ws#1%@s*.I3
+    port: 7968
+    pool:
+      max-active: 1000
+      max-idle: 1
+      max-wait: -1
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springsecurity?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: 123456
-
   jpa:
     hibernate:
       ddl-auto: update

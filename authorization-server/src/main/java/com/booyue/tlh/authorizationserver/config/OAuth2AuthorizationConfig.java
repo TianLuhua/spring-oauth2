@@ -3,7 +3,9 @@ package com.booyue.tlh.authorizationserver.config;
 import com.booyue.tlh.authorizationserver.service.UserServiceDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
@@ -13,6 +15,8 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.InMemoryTokenStore;
+import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
+import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
 import javax.sql.DataSource;
 
@@ -30,8 +34,11 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
     @Autowired
     private UserServiceDetail userServiceDetail;
 
-    //private TokenStore jdbcTokenStore = new JdbcTokenStore(dataSource);
-    private TokenStore jdbcTokenStore = new InMemoryTokenStore();
+    @Autowired
+    private RedisConnectionFactory redisConnectionFactory;
+
+    @Autowired
+    private TokenStore tokenStore;
 
     /**
      * 配置客户端信息，可以放在内存中也可以放在数据库中。需要配置信息如下:
@@ -77,7 +84,7 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints
-                .tokenStore(jdbcTokenStore)
+                .tokenStore(tokenStore)
                 .authenticationManager(authenticationManager)
                 .userDetailsService(userServiceDetail);
     }
@@ -103,5 +110,24 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
         security
                 .tokenKeyAccess("permitAll()")
                 .checkTokenAccess("isAuthenticated()");
+    }
+
+
+    @Bean
+    public TokenStore tokenStore() {
+        /**
+         * memory
+         */
+        //return new InMemoryTokenStore();
+
+        /**
+         *mysql
+         */
+        //return new JdbcTokenStore(dataSource);
+
+        /**
+         * redis
+         */
+        return new RedisTokenStore(redisConnectionFactory);
     }
 }
