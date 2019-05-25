@@ -2,7 +2,6 @@ package com.booyue.tlh.authorizationserver.config;
 
 import com.booyue.tlh.authorizationserver.service.UserServiceDetail;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -13,11 +12,12 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.ClientDetailsService;
+import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.token.TokenStore;
-import org.springframework.security.oauth2.provider.token.store.InMemoryTokenStore;
-import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
+import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 
@@ -26,10 +26,8 @@ import javax.sql.DataSource;
 @EnableAuthorizationServer
 public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
 
+
     @Autowired
-    private DataSource dataSource;
-    @Autowired
-    @Qualifier("authenticationManagerBean")
     private AuthenticationManager authenticationManager;
     @Autowired
     private UserServiceDetail userServiceDetail;
@@ -52,15 +50,30 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
      */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.inMemory()
-                .withClient("browser")
-                .authorizedGrantTypes("refresh_token", "password")
-                .scopes("ui")
-                .and()
-                .withClient("service-hi")
-                .secret("$2a$10$Q2zHbm.Fo19i4KuExrF.0uZveXLkHm6A.qKl.RMWIbW62sMwOr1ra")//123456
-                .authorizedGrantTypes("client_credentials", "refresh_token", "password")
-                .scopes("service");
+        clients.withClientDetails(clientDetails());
+//        clients.inMemory()
+//                .withClient("browser")
+//                .authorizedGrantTypes("refresh_token", "password")
+//                .secret("$2a$10$Q2zHbm.Fo19i4KuExrF.0uZveXLkHm6A.qKl.RMWIbW62sMwOr1ra")//123456
+//                .accessTokenValiditySeconds(50)
+//                .scopes("ui")
+//                .and()
+//                .withClient("service-hi")
+//                .secret("$2a$10$Q2zHbm.Fo19i4KuExrF.0uZveXLkHm6A.qKl.RMWIbW62sMwOr1ra")//123456
+//                .authorizedGrantTypes("client_credentials", "refresh_token", "password")
+//                .accessTokenValiditySeconds(50)
+//                .scopes("service");
+    }
+
+    @Resource
+    private DataSource dataSource;
+
+
+
+
+    @Bean
+    public ClientDetailsService clientDetails() {
+        return new JdbcClientDetailsService(dataSource);
     }
 
     /**
@@ -85,8 +98,8 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints
                 .tokenStore(tokenStore)
-                .authenticationManager(authenticationManager)
-                .userDetailsService(userServiceDetail);
+                .authenticationManager(authenticationManager);
+//                .userDetailsService(userServiceDetail);
     }
 
 

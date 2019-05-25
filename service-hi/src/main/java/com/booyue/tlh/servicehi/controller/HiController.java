@@ -29,6 +29,13 @@ public class HiController {
         return "hello you!";
     }
 
+    @PreAuthorize("hasAuthority('ROLE_READ')")
+    @RequestMapping("/read")
+    public String read() {
+        return "hello read!";
+    }
+
+
     @RequestMapping("/getPrinciple ")
     public OAuth2Authentication auth2Authentication(OAuth2Authentication oAuth2Authentication, Principal principal, Authentication authentication) {
         logger.info(oAuth2Authentication

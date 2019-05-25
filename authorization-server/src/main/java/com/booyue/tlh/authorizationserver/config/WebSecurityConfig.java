@@ -21,7 +21,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-
     @Autowired
     private UserServiceDetail userServiceDetail;
 
@@ -44,7 +43,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
      * 这市要在 0Auth2 中配置，因为在 0Auth2 中配置了 AuthenticationManager,
-     * 密码验证才会开肩。在本例中，采用的是密码验证 。
+     * 密码验证才会开启。
      *
      * @return
      * @throws Exception
