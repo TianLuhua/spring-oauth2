@@ -55,4 +55,23 @@ spring:
 ~~~
 
 3.配置Resource Service<br/>
+3.1 依赖
+~~~
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
+        </dependency>
+~~~
+3.2 配置
+~~~
+开启ResourceServer：
+@Configuration 加上 @EnableResourceServer
+
+验证token服务的节点：
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8762/uaa/users/current
+
+~~~
 4.配置OAuth Client<br/>

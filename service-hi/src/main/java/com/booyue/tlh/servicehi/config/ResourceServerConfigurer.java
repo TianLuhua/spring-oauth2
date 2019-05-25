@@ -13,7 +13,10 @@ public class ResourceServerConfigurer extends ResourceServerConfigurerAdapter {
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/user/register").permitAll()
+        /**
+         * 除了 /hi 可以不要权限就可以访问之外，其他的都要的到授权。
+         */
+        http.authorizeRequests().antMatchers("/hi").permitAll()
                 .anyRequest().authenticated();
     }
 }
