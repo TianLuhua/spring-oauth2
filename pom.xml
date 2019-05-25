@@ -23,7 +23,6 @@
 
     <modules>
         <module>authorization-server</module>
-        <module>eureka-server</module>
         <module>service-hi</module>
     </modules>
 

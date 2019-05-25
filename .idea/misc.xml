@@ -14,7 +14,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/authorization-server/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
       </list>

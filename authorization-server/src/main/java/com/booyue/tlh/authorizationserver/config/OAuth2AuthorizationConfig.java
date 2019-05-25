@@ -1,11 +1,12 @@
 package com.booyue.tlh.authorizationserver.config;
 
-import com.booyue.tlh.authorizationserver.service.UserServiceDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
@@ -26,17 +27,20 @@ import javax.sql.DataSource;
 @EnableAuthorizationServer
 public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
 
-
     @Autowired
     private AuthenticationManager authenticationManager;
-    @Autowired
-    private UserServiceDetail userServiceDetail;
+
+    @Resource
+    private DataSource dataSource;
 
     @Autowired
     private RedisConnectionFactory redisConnectionFactory;
 
     @Autowired
     private TokenStore tokenStore;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     /**
      * 配置客户端信息，可以放在内存中也可以放在数据库中。需要配置信息如下:
@@ -65,15 +69,15 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
 //                .scopes("service");
     }
 
-    @Resource
-    private DataSource dataSource;
 
 
 
 
     @Bean
     public ClientDetailsService clientDetails() {
-        return new JdbcClientDetailsService(dataSource);
+        ClientDetailsService clientDetailsService=new JdbcClientDetailsService(dataSource);
+        ((JdbcClientDetailsService) clientDetailsService).setPasswordEncoder(passwordEncoder);
+        return clientDetailsService;
     }
 
     /**
@@ -99,7 +103,6 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
         endpoints
                 .tokenStore(tokenStore)
                 .authenticationManager(authenticationManager);
-//                .userDetailsService(userServiceDetail);
     }
 
 
@@ -142,5 +145,10 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
          * redis
          */
         return new RedisTokenStore(redisConnectionFactory);
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder(){
+        return new  BCryptPasswordEncoder();
     }
 }

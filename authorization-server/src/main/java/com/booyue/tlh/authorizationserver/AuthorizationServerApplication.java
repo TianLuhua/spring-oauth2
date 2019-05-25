@@ -14,15 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@RestController
 public class AuthorizationServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AuthorizationServerApplication.class, args);
-    }
-
-    @RequestMapping("/test")
-    public String test() {
-        return "authorization-server";
     }
 }

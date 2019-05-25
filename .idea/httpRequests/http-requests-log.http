@@ -1,0 +1,4 @@
+GET http://localhost:8762/uaa/{GET%20/users/current}
+
+###
+
