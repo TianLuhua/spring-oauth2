@@ -22,8 +22,20 @@ public class HiController {
      * @return
      */
     @PreAuthorize("hasAuthority('ROLE_ADMIN')")
-    @RequestMapping("/hello")
-    public String hello() {
-        return "hello word!";
+    @RequestMapping("/hello_admin")
+    public String hello_admin() {
+        return "hello admin!";
+    }
+
+    @PreAuthorize("hasAuthority('ROLE_READ')")
+    @RequestMapping("/hello_read")
+    public String hello_read() {
+        return "hello read!";
+    }
+
+    @PreAuthorize("hasAuthority('ROLE_ROOT')")
+    @RequestMapping("/hello_root")
+    public String hello_root() {
+        return "hello root!";
     }
 }
