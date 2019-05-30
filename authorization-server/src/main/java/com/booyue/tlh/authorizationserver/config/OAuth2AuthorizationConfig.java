@@ -125,7 +125,7 @@ public class OAuth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
          */
         security
                 .tokenKeyAccess("permitAll()")
-                .checkTokenAccess("isAuthenticated()");
+                .checkTokenAccess("permitAll()");
     }
 
 

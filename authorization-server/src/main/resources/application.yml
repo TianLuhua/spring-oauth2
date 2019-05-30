@@ -1,5 +1,5 @@
 server:
-  port: 8762
+  port: 7888
   servlet:
     context-path: /uaa
 
@@ -19,9 +19,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springsecurity?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://121.43.105.9:3306/springsecurity?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
-    password: 123456
+    password: Booyue@20100901
     type: com.alibaba.druid.pool.DruidDataSource
 
 security:

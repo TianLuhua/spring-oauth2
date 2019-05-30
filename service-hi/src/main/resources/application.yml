@@ -5,8 +5,7 @@ spring:
   application:
     name: service-hi
 
-#配置token验证服务器的地址
 security:
   oauth2:
     resource:
-      user-info-uri: http://localhost:8762/uaa/users/current
+      user-info-uri: http://localhost:7888/uaa/users/current
