@@ -1,5 +1,5 @@
 server:
-  port: 7888
+  port: 8666
   servlet:
     context-path: /uaa
 
@@ -8,10 +8,10 @@ spring:
     name: authorization-server
 
   redis:
-    host: 121.43.105.9
+    host: 118.178.197.5
     database: 5
-    password: Ws#1%@s*.I3
-    port: 7968
+    password: AliloRedis!@#123
+    port: 9763
     pool:
       max-active: 1000
       max-idle: 1
@@ -19,10 +19,11 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.43.105.9:3306/springsecurity?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-    username: root
-    password: Booyue@20100901
+    url: jdbc:mysql://rdsmibifjymbyuqfo.mysql.rds.aliyuncs.com:3306/db_babyting?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: babygo
+    password: Boyue123
     type: com.alibaba.druid.pool.DruidDataSource
+
 
 security:
   oauth2:
@@ -30,3 +31,13 @@ security:
       filter-order: 3
   basic:
     enabled: false
+
+
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://118.31.54.136:8761/eureka/
+  instance:
+      prefer-ip-address: true
+      instance-id: ${spring.application.name}:${server.port}
